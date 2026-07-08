@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "companions": [
+    {
+      "id": "floppy",
+      "name": "Floppy",
+      "description": "A floppy disk — the retro save-icon mascot.",
+      "latest": "v1",
+      "versions": ["v1"]
+    },
+    {
+      "id": "orb",
+      "name": "Orb",
+      "description": "A floating orb — minimal, abstract, calm.",
+      "latest": "v1",
+      "versions": ["v1"]
+    },
+    {
+      "id": "iron-mask",
+      "name": "Iron Man",
+      "description": "An Iron-Man-style helmet/mask with a metallic PBR finish.",
+      "latest": "v1",
+      "versions": ["v1"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Floppy",
+  "mode": "face",
+  "morphs": {
+    "mouthOpen": "mouthOpen",
+    "blink": "blink",
+    "mood_happy": "mood_happy",
+    "mood_think": "mood_think",
+    "mood_alert": "mood_alert"
+  },
+  "scale": 1,
+  "cameraDistance": 5
+}
