@@ -18,9 +18,9 @@
     {
       "id": "iron-mask",
       "name": "Iron Man",
-      "description": "An Iron-Man-style helmet/mask with a metallic PBR finish.",
-      "latest": "v1",
-      "versions": ["v1"]
+      "description": "An Iron-Man-style helmet/mask with a metallic PBR finish. v1 is the original rigged face; v1.1 is a Trellis image-to-3D remodel (prop mode).",
+      "latest": "v1.1",
+      "versions": ["v1", "v1.1"]
     }
   ]
 }
