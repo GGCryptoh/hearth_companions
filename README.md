@@ -8,13 +8,18 @@ Each companion is a `.glb` 3D model plus a tiny `.avatar.json` sidecar that
 tells a renderer how to bring it to life. They're stored here, versioned, so
 any project can pull them in and let the user pick one.
 
-Three companions ship today:
+Two companions ship today:
 
 | ID          | Name     | What it is                                             |
 | ----------- | -------- | ------------------------------------------------------ |
 | `floppy`    | Floppy   | A floppy disk — the retro save-icon mascot.            |
 | `orb`       | Orb      | A floating orb — minimal, abstract, calm.              |
-| `iron-mask` | Iron Man | An Iron-Man-style helmet with a metallic PBR finish.   |
+
+Both are original art. (An earlier "iron-mask" Iron-Man-style companion was
+removed from this public repo for IP/trademark reasons — it was derived from
+a copyrighted/trademarked character design, which isn't appropriate for an
+open-source distribution. New companions added here should be original art
+or art you have clear rights to use and distribute.)
 
 ## Layout
 
@@ -25,14 +30,10 @@ hearth_companions/
 │   └── v1/
 │       ├── floppy.glb
 │       └── floppy.avatar.json
-├── orb/
-│   └── v1/
-│       ├── orb.glb
-│       └── orb.avatar.json
-└── iron-mask/
+└── orb/
     └── v1/
-        ├── iron-mask.glb
-        └── iron-mask.avatar.json
+        ├── orb.glb
+        └── orb.avatar.json
 ```
 
 **Convention**
@@ -85,7 +86,7 @@ the voice) rather than showing a blank canvas.
 
 ## Adding a new version of an existing companion
 
-1. Add `iron-mask/v2/iron-mask.glb` and `iron-mask/v2/iron-mask.avatar.json`.
+1. Add `<id>/v2/<id>.glb` and `<id>/v2/<id>.avatar.json`.
 2. Bump `latest` and append `"v2"` to that companion's `versions` in
    `manifest.json`.
 
